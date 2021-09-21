@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro|Spartan&display=swap');
+:root{
+  --footer_font : 'Lato', sans-serif;
+  --body_font :  'Source Sans Pro', sans-serif;
+  --header-font :  'Spartan', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--body_font) !important;
+}
+.container{
+    padding-top: 15%;
+    
+}
+h1 a:hover{
+  text-decoration: none;
+}
+.dropdown-container{
+    padding: 8px;
+    left: 50%;
+}
+.dropdown{
+  padding: inherit;
+  left: 45%;
+}
+.h21{
+  text-align:center;
+}
+.omega12{
+  left: 50%;
+  right: 50%;
+  padding: 5px;
+}
+
+
+.row{
+  left: 50%;
+  right: 50%;
+  padding: 5px;
+}
+.omega1{|
+  font-size: 20px;
+  border-radius: 10%;
+  text-align: center;
+  color:  black;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    height : 50px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px ;
+  }
+
+input{
+  padding: 5px;
+ 
+}
+.header-text{
+  font-family: var(--header-font) !important;
+
+}
+@media only screen and (max-width: 768px){      /*if screen size is bigger than screen < 768px*/
+  .header-text{
+    font-size: 1em;
+
+  }
+}
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Spartan', sans-serif;
+*/
